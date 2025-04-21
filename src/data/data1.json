@@ -1,0 +1,164 @@
+[
+    {
+      "id": "1",
+      "name": "apps",
+      "children": [
+        {
+          "id": "1.1",
+          "name": "asn",
+          "children": [
+            { "id": "1.1.1", "name": "eslint.config.mjs", "children": [] },
+            { "id": "1.1.2", "name": "jest.config.ts", "children": [] },
+            {
+              "id": "1.1.3",
+              "name": "module-federation.config.ts",
+              "children": []
+            },
+            { "id": "1.1.4", "name": "postcss.config.js", "children": [] },
+            { "id": "1.1.5", "name": "project.json", "children": [] },
+            {
+              "id": "1.1.6",
+              "name": "src",
+              "children": [
+                {
+                  "id": "1.1.6.1",
+                  "name": "app",
+                  "children": [
+                    { "id": "1.1.6.1.1", "name": "app.spec.tsx", "children": [] },
+                    { "id": "1.1.6.1.2", "name": "app.tsx", "children": [] },
+                    {
+                      "id": "1.1.6.1.3",
+                      "name": "nx-welcome.tsx",
+                      "children": []
+                    }
+                  ]
+                },
+                { "id": "1.1.6.2", "name": "assets", "children": [] },
+                { "id": "1.1.6.3", "name": "bootstrap.tsx", "children": [] },
+                {
+                  "id": "1.1.6.4",
+                  "name": "components",
+                  "children": [
+                    {
+                      "id": "1.1.6.4.1",
+                      "name": "AsnComponent.tsx",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "1.1.6.5",
+                  "name": "container",
+                  "children": [
+                    {
+                      "id": "1.1.6.5.1",
+                      "name": "AsnContainer.tsx",
+                      "children": []
+                    }
+                  ]
+                },
+                { "id": "1.1.6.6", "name": "favicon.ico", "children": [] },
+                { "id": "1.1.6.7", "name": "index.html", "children": [] },
+                {
+                  "id": "1.1.6.8",
+                  "name": "layouts",
+                  "children": [
+                    {
+                      "id": "1.1.6.8.1",
+                      "name": "MainLayout.tsx",
+                      "children": []
+                    }
+                  ]
+                },
+                { "id": "1.1.6.9", "name": "main.ts", "children": [] },
+                {
+                  "id": "1.1.6.10",
+                  "name": "pages",
+                  "children": [
+                    {
+                      "id": "1.1.6.10.1",
+                      "name": "CreateAsnPage.tsx",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "1.1.6.11",
+                  "name": "redux",
+                  "children": [
+                    { "id": "1.1.6.11.1", "name": "hooks.ts", "children": [] },
+                    {
+                      "id": "1.1.6.11.2",
+                      "name": "slices",
+                      "children": [
+                        {
+                          "id": "1.1.6.11.2.1",
+                          "name": "asnSlice.ts",
+                          "children": []
+                        }
+                      ]
+                    },
+                    { "id": "1.1.6.11.3", "name": "store.ts", "children": [] }
+                  ]
+                },
+                { "id": "1.1.6.12", "name": "remote-entry.ts", "children": [] },
+                { "id": "1.1.6.13", "name": "styles.css", "children": [] }
+              ]
+            },
+            { "id": "1.1.7", "name": "tailwind.config.js", "children": [] },
+            { "id": "1.1.8", "name": "tsconfig.app.json", "children": [] },
+            { "id": "1.1.9", "name": "tsconfig.json", "children": [] },
+            { "id": "1.1.10", "name": "tsconfig.spec.json", "children": [] },
+            { "id": "1.1.11", "name": "webpack.config.prod.ts", "children": [] },
+            { "id": "1.1.12", "name": "webpack.config.ts", "children": [] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "host",
+          "children": [
+            { "id": "1.2.1", "name": "eslint.config.mjs", "children": [] },
+            { "id": "1.2.2", "name": "jest.config.ts", "children": [] },
+            {
+              "id": "1.2.3",
+              "name": "module-federation.config.ts",
+              "children": []
+            },
+            { "id": "1.2.4", "name": "postcss.config.js", "children": [] },
+            { "id": "1.2.5", "name": "project.json", "children": [] },
+            {
+              "id": "1.2.6",
+              "name": "src",
+              "children": [
+                {
+                  "id": "1.2.6.1",
+                  "name": "app",
+                  "children": [
+                    { "id": "1.2.6.1.1", "name": "app.spec.tsx", "children": [] },
+                    { "id": "1.2.6.1.2", "name": "app.tsx", "children": [] },
+                    {
+                      "id": "1.2.6.1.3",
+                      "name": "nx-welcome.tsx",
+                      "children": []
+                    }
+                  ]
+                },
+                { "id": "1.2.6.2", "name": "assets", "children": [] },
+                { "id": "1.2.6.3", "name": "favicon.ico", "children": [] },
+                { "id": "1.2.6.4", "name": "index.html", "children": [] },
+                { "id": "1.2.6.5", "name": "main.tsx", "children": [] },
+                { "id": "1.2.6.6", "name": "styles.css", "children": [] }
+              ]
+            },
+            { "id": "1.2.7", "name": "tailwind.config.js", "children": [] },
+            { "id": "1.2.8", "name": "tsconfig.app.json", "children": [] },
+            { "id": "1.2.9", "name": "tsconfig.json", "children": [] },
+            { "id": "1.2.10", "name": "tsconfig.spec.json", "children": [] },
+            { "id": "1.2.11", "name": "webpack.config.js", "children": [] },
+            { "id": "1.2.12", "name": "webpack.config.prod.ts", "children": [] }
+          ]
+        }
+      ]
+    }
+  ]
+  

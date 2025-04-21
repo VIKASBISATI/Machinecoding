@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "name": "src",
+    "children": [
+      {
+        "id": "1.1",
+        "name": "components",
+        "children": [
+          {
+            "id": "1.1.1",
+            "name": "Header.tsx",
+            "children": [
+              {
+                "id": "1.1.1.1",
+                "name": "NavHeader.tsx",
+                "children": []
+              },
+              {
+                "id": "1.1.1.2`",
+                "name": "LogoNavigation.tsx",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1.1.2",
+            "name": "Footer.tsx",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "1.2",
+        "name": "App.tsx",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "public",
+    "children": [
+      {
+        "id": "2.1",
+        "name": "index.html",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "package.json",
+    "children": []
+  },
+  {
+    "id": "4",
+    "name": "tsconfig.json",
+    "children": []
+  },
+  {
+    "id": "5",
+    "name": ".gitignore",
+    "children": []
+  }
+]
