@@ -1,22 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NestedComments from "./NestedComments";
+import UberGrid from "./UberGrid";
+import commentsData from "../src/data/comments.json";
+import FileExplorer from "./FileExplorer";
+import fileData from "../src/data/data1.json"
+import Keyboard from "./Keyboard";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <UberGrid /> */}
+        {/* <h1>Nested comments</h1> */}
+        {/* <NestedComments
+          comments={commentsData}
+          onSubmit={() => {}}
+          onEdit={() => {}}
+          onDelete={() => {}}
+          onUpvote={() => {}}
+          onDownvote={() => {}}
+        /> */}
+        {/* <FileExplorer files={fileData} /> */}
+        <Keyboard />
       </header>
     </div>
   );

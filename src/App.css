@@ -14,16 +14,22 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+.opa-0 {
+  opacity: 0;
+  display: none;
+}
+
+.opa-1 {
+  opacity: 1;
+  display: initial;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +41,133 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Uber-grid */
+.uber-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: fit-content;
+}
+
+.disabled-item {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.selected-grid-item {
+  background-color: #61dafb;
+  transition: background-color 0.5s ease;
+}
+
+.enabled-item {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.uber-grid-item {
+  width: 40px;
+  height: 40px;
+}
+
+/* Nested comments */
+.add-comment,
+.comment-actions {
+  display: flex;
+  gap: 5px;
+  margin: 5px 0;
+}
+
+.comment-textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.comment-button {
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.comment-button:hover {
+  background-color: #0056b3;
+}
+
+.comment {
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+  border-left: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.comment-content {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.comment-info {
+  margin: 0;
+  padding: 2px 0;
+  font-size: 12px;
+  color: #555;
+}
+
+/* File Explorer */
+.card {
+  border-radius: 4px;
+  width: 350px;
+  height: auto;
+  background: #fff;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.file-actions {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
+
+/* Keyboard */
+.keyboard-container {
+  display: flex;
+  justify-content: center;
+}
+
+.keybard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.keyboard-row {
+  display: flex;
+}
+
+.keyboard-button {
+  margin: 3px;
+  padding: 10px 20px;
+  background-color: #dce1ed;
+  color: #414a5e !important;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .2s;
+  max-height: 44px;
+}
+
+.active-keyboard-button, .keyboard-button:hover {
+  background: #c4cbdd;
 }
