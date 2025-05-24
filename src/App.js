@@ -1,10 +1,11 @@
 import "./App.css";
-import NestedComments from "./NestedComments";
-import UberGrid from "./UberGrid";
-import commentsData from "../src/data/comments.json";
-import FileExplorer from "./FileExplorer";
-import fileData from "../src/data/data1.json"
-import Keyboard from "./Keyboard";
+// import NestedComments from "./NestedComments";
+// import UberGrid from "./UberGrid";
+// import commentsData from "../src/data/comments.json";
+// import FileExplorer from "./FileExplorer";
+// import fileData from "../src/data/data1.json"
+// import Keyboard from "./Keyboard";
+import InfiniteScroll from "./InfiniteScroll";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
           onDownvote={() => {}}
         /> */}
         {/* <FileExplorer files={fileData} /> */}
-        <Keyboard />
+        {/* <Keyboard /> */}
+        <InfiniteScroll />
       </header>
     </div>
   );
