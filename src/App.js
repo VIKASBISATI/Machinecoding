@@ -5,7 +5,8 @@ import "./App.css";
 // import FileExplorer from "./FileExplorer";
 // import fileData from "../src/data/data1.json"
 // import Keyboard from "./Keyboard";
-import InfiniteScroll from "./InfiniteScroll";
+// import InfiniteScroll from "./InfiniteScroll/InfiniteScrollObserver";
+import KeepNotes from "./KeepNotes/KeepNotes";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         /> */}
         {/* <FileExplorer files={fileData} /> */}
         {/* <Keyboard /> */}
-        <InfiniteScroll />
+        {/* <InfiniteScroll /> */}
+        <KeepNotes />
       </header>
     </div>
   );

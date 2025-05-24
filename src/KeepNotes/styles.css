@@ -1,0 +1,58 @@
+.keep-notes-container {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f1f3f4;
+  position: relative;
+}
+
+.keep-notes-container h1 {
+  text-align: center;
+  color: #202124;
+  margin-bottom: 30px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.note-card {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.note-card:hover {
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+}
+
+.note-card.selected {
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+  border: 2px solid #1a73e8;
+}
+
+.note-card h3 {
+  margin: 0 0 8px 0;
+  color: #202124;
+  font-size: 16px;
+}
+
+.note-card p {
+  margin: 0;
+  color: #5f6368;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.selection-box {
+  position: fixed;
+  pointer-events: none;
+  z-index: 1000;
+  border: 2px dashed #1a73e8;
+  background-color: rgba(26, 115, 232, 0.1);
+} 
