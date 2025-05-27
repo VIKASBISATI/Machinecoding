@@ -130,8 +130,8 @@ const KeepNotes = () => {
             position: "absolute",
             left: Math.min(startPoint.x, endPoint.x),
             top: Math.min(startPoint.y, endPoint.y),
-            width: Math.max(Math.abs(endPoint.x - startPoint.x), 1),
-            height: Math.max(Math.abs(endPoint.y - startPoint.y), 1),
+            width: Math.abs(endPoint.x - startPoint.x),
+            height: Math.abs(endPoint.y - startPoint.y),
           }}
         />
       )}
