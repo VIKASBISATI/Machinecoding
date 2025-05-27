@@ -38,7 +38,7 @@ console.log(result4);
 Function.prototype.myBind = function (context, ...args1) {
   context.fn = this;
   return function (...args2) {
-    const result = context.fn(...args1, args2);
+    const result = context.fn(...args1, ...args2);
     delete context.fn;
     return result;
   };

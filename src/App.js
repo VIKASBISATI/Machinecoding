@@ -6,7 +6,9 @@ import "./App.css";
 // import fileData from "../src/data/data1.json"
 // import Keyboard from "./Keyboard";
 // import InfiniteScroll from "./InfiniteScroll/InfiniteScrollObserver";
-import KeepNotes from "./KeepNotes/KeepNotes";
+// import KeepNotes from "./KeepNotes/KeepNotes";
+// import PollWidget from "./PollWidget";z
+import NestedCheckBox from "./NestedCheckBox";
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
         {/* <FileExplorer files={fileData} /> */}
         {/* <Keyboard /> */}
         {/* <InfiniteScroll /> */}
-        <KeepNotes />
+        {/* <KeepNotes /> */}
+        {/* <PollWidget /> */}
+        <NestedCheckBox />
       </header>
     </div>
   );

@@ -32,3 +32,18 @@ let curriedSum = curry(currySum);
 // console.log(curriedSum(1, 2, 3, 4));
 console.log(curriedSum(1)(2, 3)(4));
 // console.log(curriedSum(1)(2)(3)(4));
+
+
+function curryProd(...args1) {
+  let s = args1.reduce((acc, c) => acc*c, 1);
+  console.log(s);
+  
+  return function inner(...args2) {
+    if(!args2.length) return s;
+    s*= args2.reduce((acc, c) => acc*c, 1);
+    console.log(s);
+    return inner;
+  }
+}
+
+console.log(curryProd(1,2)(3,4)());
